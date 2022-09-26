@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tests",
+  "info": {
+    "singularName": "test",
+    "pluralName": "tests",
+    "displayName": "test"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "info": {
+      "type": "string",
+      "required": true
+    },
+    "info2": {
+      "type": "string"
+    },
+    "date": {
+      "type": "time",
+      "default": "00:01",
+      "required": true
+    }
+  }
+}
